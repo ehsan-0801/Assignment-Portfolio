@@ -1,0 +1,323 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+/* styling intro */
+.container1 {
+  display: flex;
+}
+
+.container1 .left .p1 {
+  margin-top: -5%;
+  width: 80%;
+  margin-bottom: 5%;
+  font-family: "Poppins";
+}
+.container1 .left .p2 {
+  margin-top: 5%;
+  width: 80%;
+}
+.header_Item {
+  line-height: 48px;
+  border-left: 4px solid #ff5959;
+}
+.msg1 {
+  font-size: 65px;
+  margin-bottom: -40px;
+  margin-left: 10px;
+}
+.msg2 {
+  font-size: 65px;
+  color: orange;
+  margin-left: 10px;
+}
+
+.container1 .left {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 12%;
+}
+.Profile_Photo {
+  height: 500px;
+  width: 410px;
+  margin-left: 7%;
+}
+.container1 .right {
+  width: 50%;
+  margin-top: 30px;
+}
+.btn1 {
+  text-decoration: none;
+  background: orangered;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+/* styling for section2 */
+.section2_heading {
+  color: #13103a;
+  font-weight: bold;
+  font-family: "Poppins";
+  font-size: 48px;
+  text-align: center;
+}
+.section2_heading span {
+  color: #ffad5a;
+}
+
+.cards {
+  display: flex;
+  margin-top: 1%;
+  margin-left: 12%;
+  width: 100%;
+  font-family: "Poppins";
+}
+.cards .card1 {
+  width: 320px;
+  background: #bee1e6;
+  padding: 1%;
+  border-radius: 15px;
+}
+.cards .card1 p {
+  text-align: justify;
+}
+.cards .card1 .missionImage {
+  width: 141px;
+  height: 141px;
+}
+.cards .card2 {
+  width: 320px;
+  background: #ffc6ff;
+  margin-left: 20px;
+  padding: 1%;
+  border-radius: 15px;
+}
+.cards .card2 p {
+  text-align: justify;
+}
+.cards .card2 .visionImage {
+  width: 141px;
+  height: 141px;
+}
+.cards .card3 {
+  width: 320px;
+  background: #fff4d6;
+  margin-left: 20px;
+  padding: 1%;
+  border-radius: 15px;
+}
+.cards .card3 p {
+  text-align: justify;
+}
+.cards .card3 .goalsImage {
+  width: 141px;
+  height: 141px;
+}
+
+/* styling for section3 */
+.section3 {
+  background-image: url(./images/shapes/shape-1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 2%;
+}
+.container2 {
+  display: flex;
+}
+.container2 .part1 .img1 {
+  width: 450px;
+  height: 470px;
+  margin-top: -12%;
+}
+.container2 .part1 {
+  margin-left: 10%;
+}
+.container2 .part2 {
+  font-family: "Poppins";
+  margin-left: 3%;
+}
+
+.container2 .part2 h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.container2 .part2 p {
+  width: 70%;
+  justify-content: left;
+  margin-bottom: 5%;
+}
+.container2 .part2 .btn2 {
+  text-decoration: none;
+  background: orangered;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+/* styling for section4 */
+.section4 {
+  background-image: url(./images/shapes/shape-1.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  margin-bottom: 8%;
+  margin-right: 10%;
+}
+.container3 {
+  display: flex;
+  margin-top: 40%;
+}
+.container3 .part1 {
+  font-family: "Poppins";
+  width: 40%;
+  margin-left: 11%;
+  margin-top: -20%;
+}
+.container3 .part1 h1 {
+  font-size: 48px;
+}
+.container3 .part1 p {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.container3 .part1 .btn3 {
+  text-decoration: none;
+  background: orangered;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.container3 .part2 {
+  margin-top: -20%;
+  margin-left: 13%;
+}
+.container3 .part2 .img2 {
+  width: 400px;
+  height: 420px;
+  margin-top: -5%;
+}
+
+/* styling for section5 */
+.section5 {
+  font-family: "Poppins";
+  margin-left: 10%;
+}
+.section5 .section5_heading {
+  color: #13103a;
+  font-size: 48px;
+  text-align: center;
+}
+.section5_heading span {
+  color: orangered;
+}
+.section5 .part1 {
+  display: flex;
+}
+.section5 .card1 {
+  width: 15%;
+  height: 280px;
+  background: #edede9;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px gray;
+  padding: 5px 5px;
+}
+.section5 .card1:hover {
+  padding: 10px 10px;
+}
+.section5 .card1 img {
+  width: 100%;
+}
+.section5 .card2 {
+  width: 15%;
+  height: 280px;
+  background: #ade8f4;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px gray;
+  padding: 5px 5px;
+  margin-left: 7%;
+  margin-bottom: 4%;
+}
+.section5 .card2:hover {
+  padding: 10px 10px;
+}
+.section5 .card2 img {
+  width: 100%;
+  height: 150px;
+}
+.section5 .card3 {
+  width: 15%;
+  height: 280px;
+  background: #8d99ae;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px gray;
+  padding: 5px 5px;
+  margin-left: 7%;
+}
+.section5 .card3:hover {
+  padding: 10px 10px;
+}
+.section5 .card3 img {
+  width: 100%;
+  height: 130px;
+  margin-top: 5px;
+}
+.section5 .card4 {
+  width: 15%;
+  height: 280px;
+  background: #fad2e1;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px gray;
+  padding: 5px 5px;
+  margin-left: 7%;
+}
+.section5 .card4:hover {
+  padding: 10px 10px;
+}
+.section5 .card4 img {
+  width: 100%;
+  height: 150px;
+}
+.cardbtn {
+  background: #013a63;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border: 4px;
+  border-radius: 5px;
+}
+
+/* styling for footer */
+.foot {
+  font-family: "Poppins";
+  background: black;
+  background-size: cover;
+  height: 150px;
+}
+.foot h1 {
+  font-family: "Lobster";
+  color: white;
+  text-align: center;
+}
+.foot h1 span {
+  color: red;
+}
+.foot p {
+  color: white;
+  text-align: center;
+}
