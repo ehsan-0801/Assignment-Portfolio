@@ -305,6 +305,11 @@
   border: 4px;
   border-radius: 5px;
 }
+.cardbtn:hover {
+  background: transparent;
+  color: #13103a;
+  border: solid 4px #13103a;
+}
 
 /* styling for footer */
 .foot {
