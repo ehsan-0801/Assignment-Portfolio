@@ -23,6 +23,10 @@
 .header_Item {
   line-height: 48px;
   border-left: 4px solid #ff5959;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .msg1 {
   font-size: 65px;
